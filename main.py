@@ -4893,7 +4893,7 @@ def your_1_view_detail(pdf,json_data,c_MoneyS,money_signData,user_data):
         pdf.set_font('LeagueSpartan-Regular', size=px2pts(24))
         pdf.cell(px2MM(250),px2MM(32),tableL4[row],border=0,align="L")
 
-            #cal2 text
+        #cal2 text
         pdf.set_xy(px2MM(1623), px2MM(344+(row*72)))
         pdf.set_font('LeagueSpartan-Regular', size=px2pts(24))
         if str(tableR4[row]) == '-':  
